@@ -1,5 +1,5 @@
 <script>
-import Logout from '../../auth/logout/Logout.vue'
+import Logout from '../../auth/components/Logout.vue'
 export default {
   name: 'AdminDashboard',
   components: {
