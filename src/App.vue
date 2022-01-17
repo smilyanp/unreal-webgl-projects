@@ -2,6 +2,7 @@
 import firebaseConfig from '../firebase.config'
 import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
+import './tailwind.css'
 
 export default {
   name: 'App',
@@ -14,7 +15,9 @@ export default {
 </script>
 
 <template>
-  <router-view></router-view>
+  <div class="container bg-slate-500 mx-auto">
+    <router-view></router-view>
+  </div>
 </template>
 
 <style>
